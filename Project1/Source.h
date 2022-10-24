@@ -5,13 +5,14 @@ class CScreenPoint
 private:
 	int x;
 	int y;
-	CScreenPoint(void);
+	
 
 public:
-
-	int Display+=(int n);
-
 	
+	CScreenPoint(void);
+	CScreenPoint(int _x, int _y);
+	void Display(void);
+
 	CScreenPoint operator+(int n);
 	CScreenPoint operator-(int n);
 	void operator+=(int n);
