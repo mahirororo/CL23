@@ -11,6 +11,7 @@ public:
 	
 	CScreenPoint(void);
 	CScreenPoint(int _x, int _y);
+
 	void Display(void);
 
 	CScreenPoint operator+(int n);
